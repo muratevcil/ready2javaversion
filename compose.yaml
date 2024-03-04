@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=ready2javaversion'
+      - 'POSTGRES_PASSWORD=murat2002'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432'
